@@ -5,8 +5,8 @@ var username = "Guava"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
-  "97219",
-  "94920"
+  "2475687",
+  "2506205"
 ];
 var images = [
   "1412446496031.jpg",
@@ -35,7 +35,8 @@ var searchs = [
   ["!g", "https://www.google.ch/#q="],
   ["!y", "https://www.youtube.com/results?search_query="],
   ["!w", "https://en.wikipedia.org/w/index.php?search="],
-  ["!d", "https://duckduckgo.com/?q="]
+  ["!d", "https://duckduckgo.com/?q="],
+  ["!s", "https://www.shodan.io/search?query="]
 ];
 var favorites = [
   [ "Work",
@@ -54,30 +55,32 @@ var favorites = [
       ["twitter" , "https://twitter.com/", "twi"]
     ]
   ],
-  [ "Download",
+  [ "ThreatInt",
     [
-      ["thepiratebay", "http://thepiratebay.se", "tpb"],
-      ["T411", "http://www.t411.in/", "t411"]
+      ["HybridAnalysis", "https://www.hybrid-analysis.com/", "ha"],
+      ["Malwr", "https://malwr.com/", "ml"],
+      ["Awesome Threat Intel", "https://github.com/hslatman/awesome-threat-intelligence", "ati"]
     ]
   ],
   [ "Reddit",
     [
       ["Frontpage", "https://www.reddit.com/", "fp"],
-      ["LoL", "https://www.reddit.com/r/leagueoflegends/", "lol"],
-      ["4chan", "https://www.reddit.com/r/4chan/", "4ch"],
-      ["Monster Hunter", "https://www.reddit.com/r/MonsterHunter/", "mh"],
+      ["Netsec", "https://www.reddit.com/r/netsec/", "nt"],
+      ["Hacking", "https://www.reddit.com/r/hacking/", "hck"],
+      ["Gaming", "https://www.reddit.com/r/gaming/", "gm"],
       ["Programmer Humor", "https://www.reddit.com/r/ProgrammerHumor/", "ph"]
     ]
   ],
-  [ "4chan",
+  [ "SecNews",
     [
-      ["/b/", "http://4chan.org/b/", "b"],
-      ["/wg/", "http://4chan.org/wg/", "wg"],
-      ["/g/", "http://4chan.org/g/", "g"]
+      ["0x00", "https://0x00sec.org/", "0x"],
+      ["ExeTools", "https://forum.exetools.com/index.php", "et"],
+      ["0dayToday", "https://en.0day.today/", "0day"]
     ]
   ]
 ];
 var feeds = [
   ["0x00sec","https://0x00sec.org/latest.rss"],
-  ["darkreading", "https://www.darkreading.com/rss_simple.asp"]
+  ["darkreading", "https://www.darkreading.com/rss_simple.asp"],
+  ["0day.today", "https://0day.today/rss"]
 ];
