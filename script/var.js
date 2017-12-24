@@ -41,7 +41,7 @@ var searchs = [
 var favorites = [
   [ "Work",
     [
-      ["cpnv" , "http://intranet.cpnv.ch/", "cpnv"],
+      ["GD Threat" , "https://confluence.godaddy.com/pages/viewpage.action?pageId=79440190", "gdt"],
       ["github" , "https://github.com/", "gh"],
       ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
       ["bitbucket" , "http://bitbucket.org", "bb"]
@@ -49,7 +49,7 @@ var favorites = [
   ],
   [ "Social",
     [
-      ["whatsapp" , "https://web.whatsapp.com/", "wa"],
+      ["sud0ers" , "https://sud0ers.slack.com/", "su"],
       ["hangouts" , "http://hangouts.google.com", "hang"],
       ["facebook" , "https://www.facebook.com/" , "fb"],
       ["twitter" , "https://twitter.com/", "twi"]
@@ -75,7 +75,8 @@ var favorites = [
     [
       ["0x00", "https://0x00sec.org/", "0x"],
       ["ExeTools", "https://forum.exetools.com/index.php", "et"],
-      ["0dayToday", "https://en.0day.today/", "0day"]
+      ["0day.Today", "https://en.0day.today/", "0day"],
+      ["FireEye", "https://www.fireeye.com/blog/threat-research.html", "fire"]
     ]
   ]
 ];
@@ -83,4 +84,6 @@ var feeds = [
   ["0x00sec","https://0x00sec.org/latest.rss"],
   ["darkreading", "https://www.darkreading.com/rss_simple.asp"],
   ["0day.today", "https://0day.today/rss"]
+  ["malware domains", "http://www.malwaredomainlist.com/hostslist/mdl.xml"],
+  ["ZeuS", "https://zeustracker.abuse.ch/monitor.php?urlfeed=binaries"]
 ];
