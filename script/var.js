@@ -79,6 +79,5 @@ var favorites = [
 ];
 var feeds = [
   ["0x00sec","https://0x00sec.org/latest.rss"],
-  ["darkreading", "https://www.darkreading.com/rss_simple.asp"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
+  ["darkreading", "https://www.darkreading.com/rss_simple.asp"]
 ];
