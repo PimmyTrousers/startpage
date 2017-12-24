@@ -83,7 +83,7 @@ var favorites = [
 var feeds = [
   ["0x00sec","https://0x00sec.org/latest.rss"],
   ["darkreading", "https://www.darkreading.com/rss_simple.asp"],
-  ["0day.today", "https://0day.today/rss"]
+  ["0day.today", "https://0day.today/rss"],
   ["malware domains", "http://www.malwaredomainlist.com/hostslist/mdl.xml"],
   ["ZeuS", "https://zeustracker.abuse.ch/monitor.php?urlfeed=binaries"]
 ];
