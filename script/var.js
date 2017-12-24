@@ -1,12 +1,12 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Cel51"
+var username = "Guava"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
-  "784201",
-  "784302"
+  "97219",
+  "94920"
 ];
 var images = [
   "1412446496031.jpg",
@@ -34,7 +34,8 @@ var images = [
 var searchs = [
   ["!g", "https://www.google.ch/#q="],
   ["!y", "https://www.youtube.com/results?search_query="],
-  ["!w", "https://en.wikipedia.org/w/index.php?search="]
+  ["!w", "https://en.wikipedia.org/w/index.php?search="],
+  {"!d", "https://duckduckgo.com/?q="]
 ];
 var favorites = [
   [ "Work",
@@ -74,16 +75,10 @@ var favorites = [
       ["/wg/", "http://4chan.org/wg/", "wg"],
       ["/g/", "http://4chan.org/g/", "g"]
     ]
-  ],
-  [ "Others",
-    [
-      ["hugelol", "http://hugelol.com", "hgl"],
-      ["hiddenlol", "http://hiddenlol.com", "hdl"]
-    ]
   ]
 ];
 var feeds = [
-  ["20min Hi-Tech","http://www.20min.ch/rss/rss.tmpl?type=channel&get=20&lang=ro"],
-  ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
+  ["0x00sec","https://0x00sec.org/latest.rss"],
+  ["darkreading", "https://www.darkreading.com/rss_simple.asp"],
   ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
 ];
