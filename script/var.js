@@ -79,7 +79,7 @@ var favorites = [
       ["FireEye", "https://www.fireeye.com/blog/threat-research.html", "fire"]
     ]
   ],
-  [ "Crpyto Currency",
+  [ "Crypto",
     [
       ["GDAX", "https://www.gdax.com/", "gdax"],
       ["Binance", "https://www.binance.com/", "bin"],
