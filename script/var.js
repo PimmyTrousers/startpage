@@ -50,7 +50,7 @@ var favorites = [
   [ "Social",
     [
       ["sud0ers" , "https://sud0ers.slack.com/", "su"],
-      ["hangouts" , "http://hangouts.google.com", "hang"],
+      ["twitch" , "http://twitch.tv", "twtw"],
       ["facebook" , "https://www.facebook.com/" , "fb"],
       ["twitter" , "https://twitter.com/", "twi"]
     ]
@@ -73,10 +73,17 @@ var favorites = [
   ],
   [ "SecNews",
     [
-      ["0x00", "https://0x00sec.org/", "0x"],
+      ["0x00", "https://0x00sec.org/", "0x00"],
       ["ExeTools", "https://forum.exetools.com/index.php", "et"],
       ["0day.Today", "https://en.0day.today/", "0day"],
       ["FireEye", "https://www.fireeye.com/blog/threat-research.html", "fire"]
+    ]
+  ],
+  [ "Crpyto Currency",
+    [
+      ["GDAX", "https://www.gdax.com/", "gdax"],
+      ["Binance", "https://www.binance.com/", "bin"],
+      ["r/Litecoin", "https://www.reddit.com/r/Litecoin", "r/ltc"],
     ]
   ]
 ];
