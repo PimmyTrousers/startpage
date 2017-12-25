@@ -65,8 +65,7 @@ var favorites = [
   [ "Reddit",
     [
       ["Frontpage", "https://www.reddit.com/", "fp"],
-      ["Netsec", "https://www.reddit.com/r/netsec/", "nt"],
-      ["Hacking", "https://www.reddit.com/r/hacking/", "hck"],
+      ["Netsec", "https://www.reddit.com/me/m/netsec/", "nt"],
       ["Gaming", "https://www.reddit.com/r/gaming/", "gm"],
       ["Programmer Humor", "https://www.reddit.com/r/ProgrammerHumor/", "ph"]
     ]
